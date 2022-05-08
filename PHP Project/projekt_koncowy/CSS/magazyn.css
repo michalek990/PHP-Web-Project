@@ -1,0 +1,45 @@
+#tresc{
+    margin: 0 50px ;
+}
+.button {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color:deeppink ;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px purple;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 200px;
+  }
+  
+  .button:hover {background-color: deeppink}
+  
+  .button:active {
+    background-color: deeppink;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+.xx{
+  width: 50px;
+}
+@media (max-width:800px) {
+  #tresc img{
+    height: 30px;
+    width: 30px;
+  }
+  
+}
+@media (max-width:500px) {
+  #tresc img{
+    height: 30px;
+    width: 30px;
+  }
+ 
+}

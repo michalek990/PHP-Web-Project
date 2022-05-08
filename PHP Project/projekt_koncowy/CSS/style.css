@@ -1,0 +1,217 @@
+*{margin: 0;
+  padding: 0;
+  font-family: arial;
+  box-sizing: border-box;
+}
+body{
+background-image: url("https://i.iplsc.com/gwiezdziste-niebo/0002FZ9DPLS7LEA7-C122-F4.jpg");
+color: oldlace;
+}
+/*srodek*/
+#wripper{
+    max-width: 1200px;
+    margin: 0 auto ;
+    background-color:navy;
+}
+header img{
+    width:100%;
+    display:block;
+}
+/*menu*/
+nav {
+    overflow: hidden;
+    
+}
+
+button{
+     display: block;
+    width: 20%;
+    float:right;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    background-color: purple;
+    padding: 15px 30px;
+    transition: all 2s ease ;
+    
+}
+
+#logowanie{
+      max-width: 1200px;
+    margin: 0 auto ;
+    background-color:navy;
+}
+nav a{
+    
+    display: block;
+    width: 20%;
+    float:right;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    background-color: purple;
+    padding: 15px 20px;
+    transition: all 2s ease ;
+
+}
+nav button {
+    background: #45525a;
+    color:#ffe9ba;
+    float:left;
+    display:block;
+    width:24%;
+    margin-right: 1%;
+    padding:1% 0;
+    font-size:110%;
+    text-align:center;
+    border-radius:20px;
+
+}
+/*najechanie na obrazek*/
+a.menu:hover{
+    font-size: 20px;
+    background-color:violet;
+}
+
+.srodek {
+    text-align:center;
+   }
+article{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    margin: 0 10% 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid plum;
+}
+img.left{
+    float:left;
+    margin: 10px 10px 10px 0;
+    width: 25%;
+    border-radius: 50%;
+}
+img.cent{
+    float:right;
+    margin: 10px 10px 10px 0;
+    width: 25%;
+    padding-bottom: 5px;
+}
+img.right{
+    float:left;
+    margin: 10px 10px 10px 0;
+    width: 25%;
+    
+}
+img.gid{
+    float:right;
+    margin: 10px 0 10px 0;
+    width: 40%;
+}
+article p{
+    text-align: justify;
+    line-height: 25px;
+    font-size: 18px;
+    padding: 15px 0;
+}
+.first{
+    margin-bottom: 100px;
+    
+}
+.first p {
+   
+    font-size: 25px;
+}
+.second{
+    margin-bottom: 20px;
+}
+.third{
+    margin-bottom: 40px;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+/*youtube*/
+iframe{
+    width: 100%;
+}
+footer{
+    height: 40px;
+    background-color: darkcyan;
+    color:white;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 20px;
+
+}
+/*responsywnosc*/
+@media (max-width:800px) {
+    nav a{
+        width: 100%;
+        font-size: 16px;
+    }
+    h1{
+        font-size: 26px;
+    }
+    img{
+        width: 50%;
+        height: 50%;
+    }
+    .blok{
+        font-size: 20px;
+    }
+}
+@media (max-width:500px) {
+    nav a{
+        width: 100%;
+    }
+    .first{
+        font-size: 10px;
+    }
+}
+
+h1{
+    padding-top: 10px;
+}
+#blok{
+    margin: 10px 10px 10px 10px;
+}
+.info{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 600px;
+    margin: 0 auto ;
+    text-align: left;
+    font-size: 110%;
+    margin-left: 40px;
+}
+.glow{
+
+  color:deeppink;
+  font-size: 30px;
+}
+.glowna_tekst{
+    margin-left: 100px;
+    color:deeppink;
+    font-size: 30px;
+}
+.wow{
+  color:darkorchid;
+  font-size: 40px;   
+}
+.xiaomi{
+  font-size: 30px;  
+  color:deeppink;
+}
+.xx{
+    width: 100%;
+  }
+.as{
+      width: 100%;
+      color: violet;
+      box-shadow: yellow;
+      text-decoration: black;
+  }
